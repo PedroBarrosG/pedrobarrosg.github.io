@@ -1,0 +1,69 @@
+
+        
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #46344E;
+            border-bottom: 5px solid black;
+            padding: 10px 20px;
+            align-items: center
+            
+        }      
+        body {
+            background-color: olivedrab;
+        }
+
+        nav {
+            text-align: right;
+           
+
+        }
+        a {
+            display: inline-flex;
+            align-items: center;
+            color: rgb(212, 212, 212);
+            font-size: 23px;
+            font-family: "Fjalla One", "Fira Code", Arial, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            text-decoration: none;
+            margin-right: 30px;
+
+        }
+        a::before {
+            content: "";
+            background-color: #faed26;
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            
+        }
+
+        #downloadbutton {
+            color: black;
+            display: inline-block;
+            background-color: #faed26;
+            height: 30px;
+            line-height: 30px;
+            padding: 18px 20px;
+            box-shadow: 5px 5px 0px black;
+            border-radius: 5px;
+            margin-right: 0px;
+            transition: transform 250ms cubic-bezier(0.44,-0.29, 0.74, 0.05);
+            
+
+        }
+
+        #downloadbutton:hover {
+            transform: scale(1.06);
+            background-color: #e6d822;
+        }
+
+        #sobre:hover, #meusprojetos:hover, #skills:hover, #contatos:hover {
+            color: white;
+            text-decoration-line: underline;
+            padding-bottom: 10px 20px;
+            position: relative;
+            
+        }

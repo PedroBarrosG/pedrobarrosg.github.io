@@ -1,0 +1,306 @@
+body{
+    background: #024950;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mainlogo{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.menu{
+    display: flex;
+    flex: row;
+    gap: 2rem;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerbackground{
+    background-color: #003135;
+}
+
+.mainheader{
+    max-width: 1120px;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+
+}
+
+.headercontent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.decorationtext{
+    color: #2fb3a9;
+}
+
+.headerimage >figure >img{
+    max-width: 90%;
+    margin: -1rem;
+
+}
+
+
+.minititle{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+.acqua{
+    color: #e1fbff;
+}
+
+.bluemarine{
+    color: #124e66;
+}
+
+.services{
+    color: #e1fbff;
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+
+}
+
+hr{
+    border-color: #90fce1;
+}
+
+.headersubtitle{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255, 255, 255)
+}
+
+.button{
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: 0 -15px;
+
+}
+
+button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #90fce1;
+}
+
+.professionals{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1120px;
+    padding: 3rem 2.5rem;
+}
+
+.professionals-header{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.prolist{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255)
+}
+
+.prolistsub{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255)
+}
+
+.procardlist{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-between;
+}
+
+
+.procard{
+    background: #748d92;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 20px;
+
+}
+
+
+.procardheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+.procardheaderdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+
+.title{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255)
+}
+
+.prorate{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.description{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.prodetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    
+
+}
+
+.prodetails > img{
+    border-radius: 20rem;
+    width: 3rem;
+    transition: transform .2s;
+}
+.prodetails > img:hover{
+    transform: scale(5);
+}
+
+.prodetailsname{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.footerdiv {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #003135;
+
+}
+
+.contactdiv {
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    display: flex;
+    
+
+}
+
+a{
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 17px;
+
+}
+
+a:hover{
+   color: #2fb3a9;
+   letter-spacing: 0.05em;  
+   background-color: white; 
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.topbutton{
+    background-color: #eff9f6;
+    color: #003135;
+}
